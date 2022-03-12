@@ -1,0 +1,22 @@
+<select class="selectpicker" data-width="fit">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+</select>
+
+<select id="countrySelect" name="ipicked__bahasa" class="selectpicker" data-show-content="true" onChange="go__bahasa()">
+  <option value="http://www.yahoo.com"  data-content='<span class="flag-icon flag-icon-gb"></span> ENG'>ENG</option>
+  <option value="http://www.google.com"  data-content='<span class="flag-icon flag-icon-id"></span> IND'>IND</option>
+</select>
+<input onClick="go__bahasa()" type="button" name="gobahasa" value="Go!" style="display: none">
+<script type="text/javascript">
+$(function() {
+    $('.selectpicker').selectpicker();
+    $('pick__lang').selectpicker();
+});
+
+function go__bahasa() {
+    location = document.pilih__bahasa.ipicked__bahasa.
+    options[document.pilih__bahasa.ipicked__bahasa.selectedIndex].value
+}
+
+</script>
